@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "wapi_new",
     "short_name": "wapi_new",
+=======
+    "name": "hello_world",
+    "short_name": "hello_world",
+>>>>>>> 4c1ca81ab75d3582150755c8d0b6ec6901ed45a9
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
