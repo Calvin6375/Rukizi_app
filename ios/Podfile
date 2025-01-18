@@ -1,0 +1,13 @@
+platform :ios, '11.0'
+
+# Required for Flutter iOS integration
+flutter_application_path = 'C:\Users\WP-IT-AB\projects\flutter\bin'
+load File.join(flutter_application_path, 'packages', 'flutter_tools', 'bin', 'podhelper.rb')
+
+target 'Runner' do
+  use_frameworks!
+  use_modular_headers!
+
+  # Adds Flutter-specific iOS pods
+  flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
+end

@@ -1,0 +1,41 @@
+name: noma_
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_stripe: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/main.png
+    - assets/1.png
+    - assets/2.png
+    - assets/3.png
+    - assets/4.png
+    - assets/5.png    
+    - assets/product_1.png
+    - assets/product_2.png
+    - assets/product_3.png
+    - assets/product_0.png
+    - assets/s1.png
+    - assets/s2.png
+    - assets/s3.png
+    - assets/splash.png
+
+  fonts:
+    - family: Lemon
+      fonts:
+        - asset: fonts/Lemon-Regular.ttf
+          weight: 700
